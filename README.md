@@ -59,20 +59,20 @@ A estrutura de diretórios do projeto é a seguinte:
 
 ```bash
 task-api/
-??? src/
-?   ??? models/           # Modelos do MongoDB
-?   ?   ??? Task.ts       # Modelo de Tarefa
-?   ??? routes/           # Rotas da API
-?   ?   ??? authRoutes.ts # Rota de autenticação (login, cadastro)
-?   ?   ??? taskRoutes.ts # Rota de tarefas (criação, listagem, exclusão)
-?   ??? middleware/       # Middleware de autenticação
-?   ?   ??? authMiddleware.ts # Middleware para verificar o JWT
-?   ??? types/            # Tipagens personalizadas
-?   ?   ??? express.d.ts  # Tipagens extendidas para o Express
-?   ??? index.ts          # Ponto de entrada da API
-??? .env                  # Arquivo de variáveis de ambiente
-??? package.json          # Dependências e scripts do projeto
-??? tsconfig.json         # Configuração do TypeScript
+|-- src/
+|   |-- models/           # Modelos do MongoDB
+|   |   |-- Task.ts       # Modelo de Tarefa
+|   |-- routes/           # Rotas da API
+|   |   |-- authRoutes.ts # Rota de autenticação (login, cadastro)
+|   |   |-- taskRoutes.ts # Rota de tarefas (criação, listagem, exclusão)
+|   |-- middleware/       # Middleware de autenticação
+|   |   |-- authMiddleware.ts # Middleware para verificar o JWT
+|   |-- types/            # Tipagens personalizadas
+|   |   |-- express.d.ts  # Tipagens extendidas para o Express
+|   |-- index.ts          # Ponto de entrada da API
+|-- .env                  # Arquivo de variáveis de ambiente
+|-- package.json          # Dependências e scripts do projeto
+|-- tsconfig.json         # Configuração do TypeScript
 ```
 
 ## Contribuições
